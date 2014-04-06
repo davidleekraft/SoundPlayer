@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6308D9E218F191900009CF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308D9E118F191900009CF47 /* Foundation.framework */; };
+		6308D9E418F191900009CF47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308D9E318F191900009CF47 /* CoreGraphics.framework */; };
+		6308D9E618F191900009CF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308D9E518F191900009CF47 /* UIKit.framework */; };
+		6308D9EC18F191900009CF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6308D9EA18F191900009CF47 /* InfoPlist.strings */; };
+		6308D9EE18F191900009CF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308D9ED18F191900009CF47 /* main.m */; };
+		6308D9F218F191900009CF47 /* AHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308D9F118F191900009CF47 /* AHAppDelegate.m */; };
+		6308D9F518F191900009CF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6308D9F318F191900009CF47 /* Main.storyboard */; };
+		6308D9F818F191900009CF47 /* AHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308D9F718F191900009CF47 /* AHMasterViewController.m */; };
+		6308D9FB18F191900009CF47 /* AHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308D9FA18F191900009CF47 /* AHDetailViewController.m */; };
+		6308D9FD18F191900009CF47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6308D9FC18F191900009CF47 /* Images.xcassets */; };
+		6308DA0418F191900009CF47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308DA0318F191900009CF47 /* XCTest.framework */; };
+		6308DA0518F191900009CF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308D9E118F191900009CF47 /* Foundation.framework */; };
+		6308DA0618F191900009CF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308D9E518F191900009CF47 /* UIKit.framework */; };
+		6308DA0E18F191900009CF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6308DA0C18F191900009CF47 /* InfoPlist.strings */; };
+		6308DA1018F191900009CF47 /* AudioHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308DA0F18F191900009CF47 /* AudioHomeworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6308DA0718F191900009CF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6308D9D618F191900009CF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6308D9DD18F191900009CF47;
+			remoteInfo = AudioHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6308D9DE18F191900009CF47 /* AudioHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308D9E118F191900009CF47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6308D9E318F191900009CF47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6308D9E518F191900009CF47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6308D9E918F191900009CF47 /* AudioHomework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioHomework-Info.plist"; sourceTree = "<group>"; };
+		6308D9EB18F191900009CF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6308D9ED18F191900009CF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6308D9EF18F191900009CF47 /* AudioHomework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioHomework-Prefix.pch"; sourceTree = "<group>"; };
+		6308D9F018F191900009CF47 /* AHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHAppDelegate.h; sourceTree = "<group>"; };
+		6308D9F118F191900009CF47 /* AHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHAppDelegate.m; sourceTree = "<group>"; };
+		6308D9F418F191900009CF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6308D9F618F191900009CF47 /* AHMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHMasterViewController.h; sourceTree = "<group>"; };
+		6308D9F718F191900009CF47 /* AHMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHMasterViewController.m; sourceTree = "<group>"; };
+		6308D9F918F191900009CF47 /* AHDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHDetailViewController.h; sourceTree = "<group>"; };
+		6308D9FA18F191900009CF47 /* AHDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHDetailViewController.m; sourceTree = "<group>"; };
+		6308D9FC18F191900009CF47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6308DA0218F191900009CF47 /* AudioHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308DA0318F191900009CF47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6308DA0B18F191900009CF47 /* AudioHomeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioHomeworkTests-Info.plist"; sourceTree = "<group>"; };
+		6308DA0D18F191900009CF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6308DA0F18F191900009CF47 /* AudioHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioHomeworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6308D9DB18F191900009CF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308D9E418F191900009CF47 /* CoreGraphics.framework in Frameworks */,
+				6308D9E618F191900009CF47 /* UIKit.framework in Frameworks */,
+				6308D9E218F191900009CF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308D9FF18F191900009CF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308DA0418F191900009CF47 /* XCTest.framework in Frameworks */,
+				6308DA0618F191900009CF47 /* UIKit.framework in Frameworks */,
+				6308DA0518F191900009CF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6308D9D518F191900009CF47 = {
+			isa = PBXGroup;
+			children = (
+				6308D9E718F191900009CF47 /* AudioHomework */,
+				6308DA0918F191900009CF47 /* AudioHomeworkTests */,
+				6308D9E018F191900009CF47 /* Frameworks */,
+				6308D9DF18F191900009CF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6308D9DF18F191900009CF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6308D9DE18F191900009CF47 /* AudioHomework.app */,
+				6308DA0218F191900009CF47 /* AudioHomeworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6308D9E018F191900009CF47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6308D9E118F191900009CF47 /* Foundation.framework */,
+				6308D9E318F191900009CF47 /* CoreGraphics.framework */,
+				6308D9E518F191900009CF47 /* UIKit.framework */,
+				6308DA0318F191900009CF47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6308D9E718F191900009CF47 /* AudioHomework */ = {
+			isa = PBXGroup;
+			children = (
+				6308D9F018F191900009CF47 /* AHAppDelegate.h */,
+				6308D9F118F191900009CF47 /* AHAppDelegate.m */,
+				6308D9F318F191900009CF47 /* Main.storyboard */,
+				6308D9F618F191900009CF47 /* AHMasterViewController.h */,
+				6308D9F718F191900009CF47 /* AHMasterViewController.m */,
+				6308D9F918F191900009CF47 /* AHDetailViewController.h */,
+				6308D9FA18F191900009CF47 /* AHDetailViewController.m */,
+				6308D9FC18F191900009CF47 /* Images.xcassets */,
+				6308D9E818F191900009CF47 /* Supporting Files */,
+			);
+			path = AudioHomework;
+			sourceTree = "<group>";
+		};
+		6308D9E818F191900009CF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6308D9E918F191900009CF47 /* AudioHomework-Info.plist */,
+				6308D9EA18F191900009CF47 /* InfoPlist.strings */,
+				6308D9ED18F191900009CF47 /* main.m */,
+				6308D9EF18F191900009CF47 /* AudioHomework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6308DA0918F191900009CF47 /* AudioHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6308DA0F18F191900009CF47 /* AudioHomeworkTests.m */,
+				6308DA0A18F191900009CF47 /* Supporting Files */,
+			);
+			path = AudioHomeworkTests;
+			sourceTree = "<group>";
+		};
+		6308DA0A18F191900009CF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6308DA0B18F191900009CF47 /* AudioHomeworkTests-Info.plist */,
+				6308DA0C18F191900009CF47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6308D9DD18F191900009CF47 /* AudioHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6308DA1318F191900009CF47 /* Build configuration list for PBXNativeTarget "AudioHomework" */;
+			buildPhases = (
+				6308D9DA18F191900009CF47 /* Sources */,
+				6308D9DB18F191900009CF47 /* Frameworks */,
+				6308D9DC18F191900009CF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioHomework;
+			productName = AudioHomework;
+			productReference = 6308D9DE18F191900009CF47 /* AudioHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6308DA0118F191900009CF47 /* AudioHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6308DA1618F191900009CF47 /* Build configuration list for PBXNativeTarget "AudioHomeworkTests" */;
+			buildPhases = (
+				6308D9FE18F191900009CF47 /* Sources */,
+				6308D9FF18F191900009CF47 /* Frameworks */,
+				6308DA0018F191900009CF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6308DA0818F191900009CF47 /* PBXTargetDependency */,
+			);
+			name = AudioHomeworkTests;
+			productName = AudioHomeworkTests;
+			productReference = 6308DA0218F191900009CF47 /* AudioHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6308D9D618F191900009CF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Kraft";
+				TargetAttributes = {
+					6308DA0118F191900009CF47 = {
+						TestTargetID = 6308D9DD18F191900009CF47;
+					};
+				};
+			};
+			buildConfigurationList = 6308D9D918F191900009CF47 /* Build configuration list for PBXProject "AudioHomework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6308D9D518F191900009CF47;
+			productRefGroup = 6308D9DF18F191900009CF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6308D9DD18F191900009CF47 /* AudioHomework */,
+				6308DA0118F191900009CF47 /* AudioHomeworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6308D9DC18F191900009CF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308D9FD18F191900009CF47 /* Images.xcassets in Resources */,
+				6308D9EC18F191900009CF47 /* InfoPlist.strings in Resources */,
+				6308D9F518F191900009CF47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308DA0018F191900009CF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308DA0E18F191900009CF47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6308D9DA18F191900009CF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308D9EE18F191900009CF47 /* main.m in Sources */,
+				6308D9F818F191900009CF47 /* AHMasterViewController.m in Sources */,
+				6308D9FB18F191900009CF47 /* AHDetailViewController.m in Sources */,
+				6308D9F218F191900009CF47 /* AHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308D9FE18F191900009CF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308DA1018F191900009CF47 /* AudioHomeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6308DA0818F191900009CF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6308D9DD18F191900009CF47 /* AudioHomework */;
+			targetProxy = 6308DA0718F191900009CF47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6308D9EA18F191900009CF47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308D9EB18F191900009CF47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6308D9F318F191900009CF47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308D9F418F191900009CF47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6308DA0C18F191900009CF47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308DA0D18F191900009CF47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6308DA1118F191900009CF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6308DA1218F191900009CF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6308DA1418F191900009CF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioHomework/AudioHomework-Prefix.pch";
+				INFOPLIST_FILE = "AudioHomework/AudioHomework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6308DA1518F191900009CF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioHomework/AudioHomework-Prefix.pch";
+				INFOPLIST_FILE = "AudioHomework/AudioHomework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6308DA1718F191900009CF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioHomework.app/AudioHomework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioHomework/AudioHomework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioHomeworkTests/AudioHomeworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6308DA1818F191900009CF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioHomework.app/AudioHomework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioHomework/AudioHomework-Prefix.pch";
+				INFOPLIST_FILE = "AudioHomeworkTests/AudioHomeworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6308D9D918F191900009CF47 /* Build configuration list for PBXProject "AudioHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308DA1118F191900009CF47 /* Debug */,
+				6308DA1218F191900009CF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6308DA1318F191900009CF47 /* Build configuration list for PBXNativeTarget "AudioHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308DA1418F191900009CF47 /* Debug */,
+				6308DA1518F191900009CF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6308DA1618F191900009CF47 /* Build configuration list for PBXNativeTarget "AudioHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308DA1718F191900009CF47 /* Debug */,
+				6308DA1818F191900009CF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6308D9D618F191900009CF47 /* Project object */;
+}
